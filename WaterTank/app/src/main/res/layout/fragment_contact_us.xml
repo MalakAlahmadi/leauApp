@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.collegeproject.watertank.Fragments.ContactUsFragment">
+
+    <EditText
+        android:id="@+id/feedback_ET"
+        android:padding="10dp"
+        android:gravity="start"
+        android:hint="Enter Comment"
+        android:background="@drawable/et"
+        android:minLines="8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/feedbackBtn"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:textColor="#FFFFFF"
+        android:text="Submit Comment"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:paddingLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:textSize="18dp"
+        android:textColor="#000000"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="Contact Us."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18dp"
+        android:drawableLeft="@drawable/ic_local_phone_black_24dp"
+        android:textColor="#000000"
+        android:text="6586641"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:text="Info@leau.com"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

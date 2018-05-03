@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:background="#F0F0F0"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.collegeproject.watertank.LoginActivity">
+
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <EditText
+        android:id="@+id/login_email"
+        android:paddingLeft="10dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/et"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <EditText
+        android:id="@+id/login_password"
+        android:inputType="numberPassword"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="10dp"
+        android:hint="Password"
+        android:background="@drawable/et"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <Button
+        android:onClick="onClickLogin"
+        android:id="@+id/login_start_btn"
+        android:layout_marginTop="5dp"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:onClick="onClickLogin"
+        android:id="@+id/login_signup_link"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Do not have an account? Register now"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

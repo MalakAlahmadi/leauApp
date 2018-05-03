@@ -1,0 +1,83 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ls="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.collegeproject.watertank.Fragments.SettingFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:id="@+id/alarm_lvl_tv"
+            android:padding="8dp"
+            android:textAlignment="center"
+            android:text="ALARM LEVEL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:id="@+id/supplier_tv"
+            android:padding="8dp"
+            android:textAlignment="center"
+            android:text="SUPPLIER NAME"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:id="@+id/maintainer_tv"
+            android:padding="8dp"
+            android:textAlignment="center"
+            android:text="MAINTAINER NAME"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <com.farbod.labelledspinner.LabelledSpinner
+            android:id="@+id/setting_profile_alarm"
+            ls:labelText="Alarm Level"
+            ls:widgetColor="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.farbod.labelledspinner.LabelledSpinner
+            android:id="@+id/setting_profile_supplier"
+            ls:labelText="Select Supplier"
+            ls:widgetColor="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.farbod.labelledspinner.LabelledSpinner
+            android:id="@+id/setting_profile_maintainer"
+            ls:labelText="Select Maintainer"
+            ls:widgetColor="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+            android:id="@+id/set_details"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:text="UPDATE"
+            android:textColor="#FFFFFF" />
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">WaterTank</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="alarm">
+        <item>10%</item>
+        <item>20%</item>
+        <item>30%</item>
+        <item>40%</item>
+        <item>50%</item>
+        <item>60%</item>
+        <item>70%</item>
+    </string-array>
+
+    <string-array name="supplier">
+        <item>Nestele Water</item>
+        <item>Aqua Fina</item>
+        <item>Hassam Water Inc.</item>
+    </string-array>
+
+    <string-array name="maintaince">
+        <item>Water Treatment</item>
+        <item>Ph Maintaince</item>
+        <item>Vessel Cleaning</item>
+    </string-array>
+</resources>

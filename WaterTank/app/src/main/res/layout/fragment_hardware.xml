@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    tools:context="com.collegeproject.watertank.Fragments.HardwareFragment">
+
+    <RelativeLayout
+
+        android:background="@drawable/image_bg"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <Button
+            android:id="@+id/order_now_btn"
+            android:layout_margin="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:text="Order Now"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+
+            android:scaleType="fitXY"
+            android:src="@drawable/hardware"
+            android:id="@+id/hardware_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:text="Measure water level and PH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Provide the user with information about the water and PH level ion the tanker, gives the user opportunities with the water maintenance company"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
