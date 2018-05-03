@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "919699156952",
+    "firebase_url": "https://water-tank-a47a8.firebaseio.com",
+    "project_id": "water-tank-a47a8",
+    "storage_bucket": "water-tank-a47a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919699156952:android:512d78e22016e6d0",
+        "android_client_info": {
+          "package_name": "com.collegeproject.watertank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "919699156952-7to02sfn6adikrfsvhbe2rifua7vht7b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnB9gu54kBQPUCjPmlkSk2JZ3-1dgMP-4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

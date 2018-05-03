@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        icon="@drawable/ic_home_black_24dp"
+        id="@+id/tab_home"
+        title="Home" />
+    <tab
+        icon="@drawable/ic_settings"
+        id="@+id/tab_hardware"
+        title="Hardware" />
+    <tab
+        icon="@drawable/ic_account_circle_black_24dp"
+        id="@+id/tab_profile"
+        title="Profile" />
+
+    <tab
+        icon="@drawable/ic_email_black_24dp"
+        id="@+id/tab_contact_us"
+        title="Contact Us" />
+
+
+</tabs>
